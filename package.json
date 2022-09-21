@@ -2,10 +2,14 @@
   "name": "isf-support",
   "displayName": "ISF Support",
   "description": "Basic syntax support for ISF files",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "EdwardTaylor",
   "engines": {
     "vscode": "^1.71.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edeetee/isf-support"
   },
   "categories": [
     "Programming Languages"
