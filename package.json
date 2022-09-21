@@ -1,0 +1,25 @@
+{
+  "name": "isf-support",
+  "displayName": "ISF Support",
+  "description": "Basic syntax support for ISF files",
+  "version": "0.0.1",
+  "publisher": "EdwardTaylor",
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "grammars": [
+      {
+        "path": "./syntaxes/injection.json",
+        "scopeName": "isf-meta.injection",
+        "injectTo": ["source.glsl"],
+        "embeddedLanguages": {
+          "meta.embedded.inline.json": "json"
+        }
+      }
+    ]
+  }
+}

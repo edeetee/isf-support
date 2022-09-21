@@ -1,0 +1,29 @@
+{
+    "scopeName": "isf-meta.injection",
+    "injectionSelector": "L:comment.block.glsl",
+    "patterns": [
+      {
+        "include": "#isf-meta"
+      }
+    ],
+    "repository": {
+      "isf-meta": {
+        "begin": "\\{",
+        "beginCaptures": {
+            "0": {
+                "name": "punctuation.definition.dictionary.begin.json"
+            }
+        },
+        "end": "\\}",
+        "endCaptures": {
+            "0": {
+                "name": "punctuation.definition.dictionary.end.json"
+            }
+        },
+        "name": "meta.embedded.inline.json source.json meta.structure.dictionary.json",
+        "patterns":[
+            {"include": "source.json"}
+        ]
+      }
+    }
+  }
